@@ -5,10 +5,6 @@ use Guzzle\Http\EntityBody;
 
 include 'vendor/autoload.php';
 
-if (!is_dir('dumps/')) {
-	mkdir('dumps/');
-}
-
 $file = urldecode($_GET['file']);
 
 $file_identifier = sha1($file);
