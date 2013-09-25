@@ -8,6 +8,6 @@
         }
     ],
     "require": {
-
+		"guzzle/http": "v3.7.3"
     }
 }
